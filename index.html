@@ -1,0 +1,81 @@
+<html>
+<header class="header-of-page">
+    <link rel="stylesheet" href="css/index.css">
+    <ul class="top-right" style="text-align:center">
+        <nav>
+            <div class="col-sm-12">
+                <div class="col-sm-3">
+                    <li class="nav-item">
+                        <a href="#section4">Home</a>
+                    </li>
+                </div>
+                <div class="col-sm-3">
+                    <li class="nav-item col-sm-3">
+                        <a href="#section1">About</a>
+                    </li>
+                </div>
+                <div class="col-sm-3">
+                    <li class="nav-item col-sm-3">
+                        <a href="#section2">Blogs</a>
+                    </li>
+                </div>
+                <div class="col-sm-3">
+                    <li class="nav-item col-sm-3">
+                        <a href="#section3">Contact</a>
+                    </li>
+                </div>
+            </div>
+        </nav>
+    </ul>
+</header>
+
+<body>
+    <div class="main" id="section4">
+        <img src="image/bodyBackGround.png" width="100%">
+        <p class="content">THINK POSITIVE</p>
+        <p class="content1">" Do not stop thinking of life as an adventure.<br>You have no security unless you can live
+            bravely, excitingly, imaginatively; <br>unless you can choose a challenge instead of competence.”</p>
+    </div>
+    <div class="main" id="section1">
+        <img src="image/aboutUs.jpg" width="100%">
+    </div>
+    <div class="main" id="section2">
+        <img src="image/blogs2.jpg" width="100%">
+    </div>
+    <div class="main" id="section3">
+        <img src="image/contact.jpg" width="100%">
+        <div class="titleContactUs">CONTACT US</div>
+        <div id="form-main">
+            <div id="form-div">
+                <form class="montform" id="reused_form">
+                    <p class="name">
+                        <input name="name" type="text" class="feedback-input" required placeholder="Name" id="name" />
+                    </p>
+                    <p class="email">
+                        <input name="email" type="email" required class="feedback-input" id="email"
+                            placeholder="Email" />
+                    </p>
+                    <p class="text">
+                        <textarea name="message" class="feedback-input" id="comment" placeholder="Message"></textarea>
+                    </p>
+                    <div class="submit">
+                        <button type="submit" class="button-blue">SUBMIT</button>
+                        <div class="ease"></div>
+                    </div>
+                </form>
+                <div id="error_message" style="width:100%; height:100%; display:none; ">
+                    <h4>Error</h4>
+                    Sorry there was an error sending your form.
+                </div>
+                <div id="success_message" style="width:100%; height:100%; display:none; ">
+                    <h2>Success! Your Message was Sent Successfully.</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <div></div>
+</footer>
+
+</html>
